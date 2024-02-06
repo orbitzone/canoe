@@ -1,0 +1,47 @@
+{
+  "name": "Spark",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Spark.Oz",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "@mui/x-date-pickers": "^5.0.0-beta.7"
+  },
+  "dependencies": {
+    "@hipsquare/strapi-plugin-keycloak": "1.0.4",
+    "@offset-dev/strapi-calendar": "0.0.10",
+    "@strapi/plugin-documentation": "^4.19.1",
+    "@strapi/plugin-email": "^4.14.3",
+    "@strapi/plugin-i18n": "4.14.3",
+    "@strapi/plugin-sentry": "^4.14.3",
+    "@strapi/plugin-users-permissions": "4.14.3",
+    "@strapi/provider-email-nodemailer": "^4.14.3",
+    "@strapi/strapi": "4.14.3",
+    "@strapi/utils": "^4.14.3",
+    "lodash": "^4.17.21",
+    "pg": "8.11.3",
+    "save": "^2.9.0",
+    "sharp": "^0.32.6",
+    "strapi-plugin-email-designer": "^2.2.0",
+    "strapi-plugin-populate-deep": "^3.0.0",
+    "strapi-provider-email-smtp": "^1.0.3",
+    "strapi4-models-relation-diagram": "^1.1.3",
+    "vips": "^1.0.0"
+  },
+  "author": {
+    "name": "Felipe Satiago @ Orbitz Consulting"
+  },
+  "strapi": {
+    "uuid": "80093e9f-df92-4a93-80c8-1271f115dc19"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
